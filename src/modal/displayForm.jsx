@@ -40,6 +40,7 @@ export default function DisplayForm({ classForm, setClassForm }) {
             </label>
             <input
               required
+              id="username"
               className="inpBox"
               type="text"
               value={user}
@@ -53,6 +54,7 @@ export default function DisplayForm({ classForm, setClassForm }) {
               className="inpBox"
               type="email"
               value={email}
+              id="email"
               onChange={(e) => setEmail(e.target.value)}
               required
             />
@@ -63,6 +65,7 @@ export default function DisplayForm({ classForm, setClassForm }) {
             <input
               className="inpBox"
               type="tel"
+              id="phone"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               required
@@ -74,6 +77,7 @@ export default function DisplayForm({ classForm, setClassForm }) {
             <input
               className="inpBox"
               type="date"
+              id="dob"
               value={dob}
               onChange={(e) => setDOB(e.target.value)}
               required
@@ -82,12 +86,7 @@ export default function DisplayForm({ classForm, setClassForm }) {
             <div>
               <button
                 type="Submit"
-                className="btn"
-                // onSubmit={() => {
-                //   if (phone.length === 10) {
-                //     handleSubmit();
-                //   } else alert("Invalid Phone Number");
-                // }}
+                className="submit-button"
               >
                 Submit
               </button>
