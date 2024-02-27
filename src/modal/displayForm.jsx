@@ -27,7 +27,7 @@ export default function DisplayForm({ classForm, setClassForm }) {
   return (
     <div className={cssValue}>
       <div className="modalBack" onClick={handle}></div>
-      <div className="modal1">
+      <div className="modal">
         <div className="modal-content">
           <h1>Fill Details</h1>
           <form
