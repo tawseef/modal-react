@@ -19,9 +19,15 @@ export default function DisplayForm({ classForm, setClassForm }) {
     }
   };
 
+ const handle=()=>{
+      setCssValue("true");
+      setClassForm("true");
+ }
+
   return (
     <div className={cssValue}>
-      <div className="modalBack">
+      <div className="modalBack" onClick={handle}></div>
+      <div className="modalBack1">
         <div className="wrapper">
           <h1>Fill Details</h1>
           <form

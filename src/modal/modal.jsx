@@ -6,21 +6,19 @@ export default function Modal() {
   const [formClass, setFormClass] = useState("true");
 
   return (
-    <div className="modal">
+    <div className="modal" >
     <div className="modal-content">
       <h1> User Details Modal</h1>
       <button
         className="butn"
         onClick={() => {
           setFormClass("false");
-          console.log("Clicked");
         }}
       >
-        {" "}
-        Open Form{" "}
+        Open Form
       </button>
       {formClass === "false" ? (
-        <Display classForm={formClass} setClassForm={setFormClass} />
+        <Display classForm={formClass} setClassForm={setFormClass}/>
       ) : (
         false
       )}
