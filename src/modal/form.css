@@ -10,7 +10,7 @@
     background-color: rgba(00, 0, 0, 0.5);
   }
   
-  .wrapper {
+  .modal-content {
     position: absolute;
     top: 1%;
     left: 25%;
