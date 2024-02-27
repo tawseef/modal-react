@@ -1,0 +1,55 @@
+.modalBack {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(00, 0, 0, 0.5);
+  }
+  
+  .wrapper {
+    position: absolute;
+    top: 1%;
+    left: 25%;
+    transform: translate(25%, 25%);
+    border: 1px black solid;
+    background-color: wheat;
+    height: 450px;
+    width: 440px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .false {
+    display: block;
+  }
+  
+  .true {
+    display: none;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: rgb(80, 171, 143);
+    margin: 10px;
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+  }
+  
+  .inpBox {
+    height: 25px;
+    width: 300px;
+  }
+  

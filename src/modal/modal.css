@@ -1,0 +1,14 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.butn {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(80, 171, 143);
+  color: white;
+}
