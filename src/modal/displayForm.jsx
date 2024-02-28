@@ -14,8 +14,8 @@ export default function DisplayForm({ classForm, setClassForm }) {
     }
 
     if (phone.length === 10) {
-      setCssValue("true");
-      setClassForm("true");
+      setCssValue("modal");
+      setClassForm("modal");
     }
   };
 
@@ -26,9 +26,9 @@ export default function DisplayForm({ classForm, setClassForm }) {
 
   return (
     <div className={cssValue}>
-      <div className="back" onClick={handle}></div>
-      <div className="modal">
-        <div className="modal-content">
+      <div className="modal-content" onClick={handle}></div>
+      <div className="m">
+        <div className="back">
           <h1>Fill Details</h1>
           <form
             className="form"

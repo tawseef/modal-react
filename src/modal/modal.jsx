@@ -11,13 +11,13 @@ export default function Modal() {
       <button
         className="butn"
         onClick={() => {
-          setFormClass("false");
+          setFormClass("modal");
         }}
       >
         Open Form
       </button>
       
-      {formClass === "false" ? (
+      {formClass === "modal" ? (
         <Display classForm={formClass} setClassForm={setFormClass}/>
       ) : (
         false
