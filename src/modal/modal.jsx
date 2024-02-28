@@ -18,7 +18,7 @@ export default function Modal() {
       </button>
       
       {formClass === "false" ? (
-        <div className="modal"><Display classForm={formClass} setClassForm={setFormClass}/></div>
+        <Display classForm={formClass} setClassForm={setFormClass}/>
       ) : (
         false
       )}
