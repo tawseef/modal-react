@@ -16,11 +16,12 @@ export default function Modal() {
       >
         Open Form
       </button>
+      <div className="modal">
       {formClass === "false" ? (
         <Display classForm={formClass} setClassForm={setFormClass}/>
       ) : (
         false
-      )}
+      )}</div>
     </div>
   );
 }
