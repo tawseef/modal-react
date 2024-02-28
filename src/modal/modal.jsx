@@ -6,7 +6,7 @@ export default function Modal() {
   const [formClass, setFormClass] = useState("true");
 
   return (
-    <div className="modal1">
+    <div className="abc">
       <h1> User Details Modal</h1>
       <button
         className="butn"
